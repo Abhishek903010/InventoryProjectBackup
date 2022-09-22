@@ -1,0 +1,185 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+    color: black;
+    background-color: rgb(250, 240, 240);
+  }
+#mod{
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%,-45%);
+    text-align: center;
+    position:fixed ;
+    z-index: 100;
+}
+th{
+    background-color: rgb(184, 244, 111);
+    text-align: center;
+    border-color: rgb(149, 7, 7);
+}
+td{
+    border-bottom: 1px;
+    border-color: rgb(255, 255, 255);
+}
+button{
+    margin: 5px;
+}
+.btn-close{
+  background-color: red;
+}
+.btn-warning{
+float: left;
+width: 95px;
+padding: 0%;
+margin-top: 4px;
+margin-bottom: 4px;
+border: none;
+background-color: aliceblue;
+box-shadow:1px 2px 15px 1px rgb(225, 240, 171);
+}
+.btn-danger{
+    float: left;
+    width: 95px;
+    padding: 0%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: rgb(255, 40, 40);
+    box-shadow:1px 2px 15px 1px rgb(165, 163, 163);
+    }
+.btn-primary{
+    width: 200px;
+    background-color: rgb(76, 29, 247);
+    box-shadow:1px 2px 15px 1px rgb(12, 23, 243);
+    }
+    .modal-footer>.btn-primary{
+      font-size: small;
+      padding: 0;
+      height: 40px;
+      width: 100px;
+      background-color: rgb(76, 29, 247);
+      box-shadow:1px 2px 15px 1px rgb(12, 23, 243);
+      }
+@media screen and(max-width:500px) {
+    
+        table {
+            width: 100%;
+            height: 100%;
+            
+          }
+          
+          .mat-form-field {
+            font-size: 14px;
+            width: 100%;
+          }
+          
+          td, th {
+            
+            color: rgb(54, 6, 6);
+            background-color: rgb(250, 240, 240);
+          }
+        #mod{
+            top: 50%;
+            left: 50%;
+            transform: translate(-45%,-45%);
+            text-align: center;
+            position: fixed;
+        }
+        th{
+            background-color: rgb(184, 244, 111);
+            text-align: center;
+            border-color: rgb(149, 7, 7);
+            
+        }
+        td{
+           
+            border-bottom: 1px;
+            border-color: rgb(255, 255, 255);
+        }
+        button{
+            margin: 5px;
+        }
+        .btn-close{
+          background-color: red;
+        }
+        .btn-warning{
+        float: left;
+        width: 49px;
+        padding: 0;
+        margin: 0;
+        }
+        .btn-danger{
+            float: right;
+            width: 49px;
+            padding: 0;
+            margin: 0;
+            }
+       .btn-primary{
+            width: 102px;
+            padding: 0;
+            
+            }
+       .modal{
+                border-radius: none;
+                width: 400px;
+              }         
+    }
+    @media screen and(max-width:400px){
+     .mat-elevation-z8{
+    width: 338px;
+     }
+     #field{
+      width: 338px;
+     }
+     .fade{
+      width: 90%;
+     }
+    }
+    span{
+      color: red;
+    }
+    td:hover{
+      color: rgb(60, 4, 247);
+      font-size: large;
+    }
+    button:hover
+    {
+      font-size: large;
+    }
+    img{
+      width: 25%;
+      height: 25%;
+    }
+   
+#alert_text {
+  background-color: rgb(20, 171, 111);
+  padding: 10px;
+  width: fit-content;
+  left: 40%;
+  top: 20%;
+  position: fixed;
+  color: beige;
+  box-shadow: 2px 2px 5px 1px rgb(183, 225, 66);
+}
+
+#alert_button {
+  width: fit-content;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  float: right;
+}
+#alert_button:hover{
+  background-color: aqua;
+  color: red;
+  border-color: red;
+ 
+}
+   
